@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Keycode Generator/Logger</title>
+    <meta
+      name="description"
+      content="This webpage will track what keys are pressed and then output details of each."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <hr id="line1" />
+    <header><h1>Welcome to the Webpage Keycode Generator</h1></header>
+    <hr id="line2" />
+    <h2>Last recorded keypress:</h2>
+    <footer>
+      <div>
+        <h3 id="location">Location:</h3>
+      </div>
+      <div>
+        <h3 id="which">Which:</h3>
+      </div>
+      <div>
+        <h3 id="code">Code:</h3>
+      </div>
+    </footer>
+    <hr id="line3" />
+    <script src="./code.js" async defer></script>
+  </body>
+</html>
